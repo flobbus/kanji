@@ -9,11 +9,17 @@ app.config['MYSQL_HOST'] = '::1'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'swearingen'
-'''
+
 app.config['MYSQL_HOST'] = 'mysql.eecs.ku.edu'
 app.config['MYSQL_USER'] = 'swearingen'
 app.config['MYSQL_PASSWORD'] = 'iJoh4gee'
 app.config['MYSQL_DB'] = 'swearingen'
+'''
+
+app.config['MYSQL_HOST'] = 'klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_USER'] = 'naeslckrxv06awhp'
+app.config['MYSQL_PASSWORD'] = 'zuaj8u3b4kyyed1k'
+app.config['MYSQL_DB'] = 't7q8f6d2whrm1gy2'
 mysql = MySQL(app)
 
 
